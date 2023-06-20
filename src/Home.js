@@ -29,10 +29,6 @@ const Home = ({name}) => {
   const myVideo = useRef();
   const userVideo = useRef();
   const connectionRef = useRef();
-  console.log("me: ", me);
-  console.log("caller: ", caller);
-  console.log("callerName: ", callerName);
-  console.log("roomId: ", roomId);
   const navigate = useNavigate();
   const location = useLocation();
 
